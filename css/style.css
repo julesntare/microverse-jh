@@ -65,3 +65,22 @@ form {
   border: 0;
   font-size: 17px;
 }
+
+
+.list2 i {
+  color: darkorange;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  margin-right: 15px;
+}
+
+.list2 li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.icon{
+  width: 100px;
+}
