@@ -1,0 +1,67 @@
+body {
+  height: 1000px;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+}
+
+header,
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#header-img {
+  height: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 30px;
+}
+
+nav ul li a {
+  color: #555;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #111;
+}
+
+.subscribe-container {
+  margin-top: 70px;
+}
+
+.subscribe-container,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subscribe-container > * {
+  align-self: center;
+}
+
+#email,
+#submit {
+  padding: 10px 70px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#submit {
+  background-color: #4f62dd;
+  color: #fff;
+  border: 0;
+  font-size: 17px;
+}
